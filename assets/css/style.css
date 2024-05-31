@@ -46,7 +46,84 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+/* padding class */
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+.pt-100 {
+  padding-top: 100px
+}
+
+.pb-100 {
+  padding-bottom: 100px
+}
+
+.pb-50 {
+  padding-bottom: 50px
+}
+
+.pt-50 {
+  padding-top: 50px
+}
+
+.pb-70 {
+  padding-bottom: 70px
+}
+
+.pt-70 {
+  padding-top: 70px
+}
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+.pl-15 {
+  padding-left: 15px
+}
+
+.pr-15 {
+  padding-right: 15px
+}
+
+.mr-20 {
+  margin-right: 20px
+}
+
+.pr-20 {
+  padding-right: 20px
+}
+
+.pl-20 {
+  padding-left: 20px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+.mlr-5 {
+  margin-right: 5px;
+  margin-left: 5px
+}
+
+.mlrt-5 {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px
+}
+
+/* padding class end */
+
+.no-scroll-y {
+  overflow-y: hidden
 }
 
 .w-img img {
@@ -185,6 +262,10 @@ p {
   line-height: 28px;
 }
 
+p:last-child {
+  margin-bottom: 0
+}
+
 *::-moz-selection {
   background: #000;
   color: #ffffff;
@@ -221,6 +302,130 @@ textarea:focus {
   font-size: 14px;
   opacity: 1;
 }
+
+
+
+/* default btn */
+
+.default-btn {
+  background-color: #f0f0f0;
+  color: #212226;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px 55px 15px 30px;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  transition: all ease .5s;
+  display: inline-block;
+  font-family: kanit, sans-serif;
+  border: unset;
+  z-index: 1;
+  overflow: hidden
+}
+
+.default-btn i {
+  position: absolute;
+  right: 30px;
+  top: 52%;
+  transform: translateY(-50%);
+  font-size: 18px
+}
+
+.default-btn::before {
+  position: absolute;
+  content: "";
+  background-color: #212226;
+  height: 0%;
+  width: 0%;
+  border-radius: 30px;
+  bottom: 0;
+  right: 0;
+  transition: all ease .5s;
+  z-index: -1
+}
+
+.default-btn::after {
+  position: absolute;
+  content: "";
+  background-color: #d00;
+  height: 0%;
+  width: 0%;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  transition: all ease .5s;
+  z-index: -1
+}
+
+.default-btn.active {
+  background-color: #d00;
+  color: #fff
+}
+
+.default-btn.active:hover {
+  background-color: #212226;
+  color: #fff
+}
+
+.default-btn:hover {
+  color: #fff;
+  border-color: #d00
+}
+
+.default-btn:hover::before {
+  width: 100%;
+  height: 100%
+}
+
+.default-btn:hover::after {
+  width: 100%;
+  height: 100%
+}
+
+.default-btn:focus {
+  box-shadow: none
+}
+
+.default-btn.style-2 {
+  border: 1px solid #d00;
+  background-color: transparent
+}
+
+.default-btn.style-3 {
+  border: 1px solid #606060;
+  background-color: transparent;
+  color: #fff
+}
+
+.default-btn.style-3:hover {
+  border-color: #d00
+}
+
+.default-btn.style-4 {
+  border: 1px solid #f0f0f0;
+  background-color: transparent
+}
+
+.default-btn.style-4:hover {
+  border-color: #d00
+}
+
+.default-btn.style-5 {
+  border: 1px solid #d00;
+  background-color: transparent;
+  color: #fff
+}
+
+.default-btn.style-5:hover {
+  border-color: #d00
+}
+
+.default-btn.for-card {
+  padding: 10px 20px
+}
+
+/* default btn end */
 
 /*--
     - Common Classes
@@ -1740,8 +1945,37 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .section-title {
+  max-width: 660px;
+  margin: auto auto 40px;
+  text-align: center;
   font-size: 60px;
   line-height: 1;
+}
+
+.section-title span {
+  color: #d00;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 500
+}
+
+.section-title h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 10px;
+  font-weight: 700
+}
+
+.section-title h2 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #d00;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2375,8 +2609,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
   transition: all 0.3s ease-in-out;
 }
 
+.fitness-item a {
+  display: flex;
+  justify-content: center;
+}
+
 .fitness-item img {
-  width: 100%;
+  width: 70% !important;
 }
 
 .fitness_button {
@@ -2704,8 +2943,145 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 /*----------------------------------------*/
-/*  08. Trainer CSS
+/*  08. Intro video CSS
 /*----------------------------------------*/
+
+.intro-video-area {
+  background-image: url(/assets/images/video-img/video-bg-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  z-index: 1
+}
+
+.intro-video-area::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(17, 17, 17, .25);
+  z-index: -1
+}
+
+.video-btn-content {
+    text-align: center
+}
+
+.video-btn-content .play-btn a {
+    color: #d00;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 100%;
+    background: #fff;
+    transition: all ease .5s;
+    display: inline-block;
+    position: relative;
+    z-index: 1
+}
+
+.video-btn-content .play-btn a i {
+    position: relative;
+    left: 1px;
+    top: 1px
+}
+
+.video-btn-content .play-btn a::before {
+    position: absolute;
+    content: "";
+    height: 90px;
+    width: 90px;
+    left: -5px;
+    top: -5px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    animation: ripple 4s linear infinite;
+    z-index: -1;
+    transition: all ease .5s
+}
+
+.video-btn-content .play-btn a::after {
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 80px;
+    left: 0;
+    top: 0;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    animation: ripple 6s linear infinite;
+    z-index: -1;
+    transition: all ease .5s
+}
+
+.video-btn-content .play-btn a:hover {
+    background-color: #d00;
+    color: #fff
+}
+
+.video-btn-content .play-btn a:hover::before {
+    border-color: #fff
+}
+
+.video-content .video-title span {
+  color: #d00;
+  display: inline-block;
+  margin-bottom: 10px
+}
+
+.video-content .video-title h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  position: relative
+}
+
+.video-content .video-title h2 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #d00;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px
+}
+
+.video-content p {
+  margin-bottom: 25px;
+  color: silver
+}
+
+.video-content ul {
+  padding-left: 0;
+  margin-bottom: 0
+}
+
+.video-content ul li {
+  list-style-type: none;
+  padding-left: 22px;
+  position: relative;
+  margin-bottom: 12px;
+  color: #b3b3b3
+}
+
+.video-content ul li i {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: #d00
+}
+
+.video-content ul li:last-child {
+  margin-bottom: 0
+}
+
 
 /*----------------------------------------*/
 /*  09. Product CSS
@@ -3158,8 +3534,41 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 
 /*----------------------------------------*/
-/*  12. Cart CSS
+/*  12. Contact CSS
 /*----------------------------------------*/
+
+
+
+.form-control {
+  height: 50px;
+  border: 1px solid #e2e2e2;
+  padding-left: 15px
+}
+
+.form-control::-moz-placeholder {
+  color: #666;
+  -moz-transition: all ease .5s;
+  transition: all ease .5s
+}
+
+.form-control::placeholder {
+  color: #666;
+  transition: all ease .5s
+}
+
+.form-control:focus {
+  border: 1px solid #d00;
+  box-shadow: none
+}
+
+.form-control:focus::-moz-placeholder {
+  color: transparent
+}
+
+.form-control:focus::placeholder {
+  color: transparent
+}
+
 
 
 /*----------------------------------------*/
@@ -3441,4 +3850,17 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+/*  */
+
+.mfp-title {
+  display: none
+}
+
+/*  */

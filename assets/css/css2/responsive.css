@@ -66,9 +66,6 @@
         top: 50%
     }
 
-    .cursor-outer {
-        display: none
-    }
 
     .mouseCursor {
         display: none
@@ -225,61 +222,6 @@
         border-radius: 10px
     }
 
-    .cart-table {
-        padding: 20px 30px 30px
-    }
-
-    .cart-table tbody tr td {
-        padding: 10px 20px
-    }
-
-    .cart-table tbody tr td.image img {
-        height: 60px;
-        width: 60px
-    }
-
-    .total-cart {
-        padding: 20px;
-        width: 100%
-    }
-
-    .single-review-item {
-        padding-left: 0
-    }
-
-    .single-review-item .review-img {
-        position: unset;
-        margin-bottom: 20px
-    }
-
-    .customer-review-area {
-        padding: 20px
-    }
-
-    .customer-review-area h2 {
-        font-size: 20px
-    }
-
-    .checkout-top-content {
-        margin-bottom: 30px
-    }
-
-    .billing-details {
-        padding: 20px
-    }
-
-    .billing-details .form-group ul li .form-check-input {
-        top: -3px
-    }
-
-    .order-table {
-        padding: 20px
-    }
-
-    .order-method {
-        padding: 20px
-    }
-
     .training-details-content .details-top-content h2 {
         font-size: 21px;
         margin-bottom: 18px
@@ -348,17 +290,6 @@
         padding: 7px 13px
     }
 
-    .go-top {
-        width: 35px;
-        height: 45px;
-        line-height: 45px
-    }
-
-    .go-top i {
-        font-size: 20px
-    }
-
-
 
     .single-gallery-card .gallery-content {
         padding: 20px
@@ -390,87 +321,6 @@
     .single-testimonial-box .top-content ul li .number {
         font-size: 50px;
         line-height: 50px
-    }
-
-    .testimonials-ovely {
-        padding-left: 15px;
-        padding-right: 15px
-    }
-
-    .single-testimonials-card {
-        margin-bottom: 40px
-    }
-
-    .single-testimonials-card .testimonial-content {
-        padding: 25px;
-        margin-bottom: 40px
-    }
-
-    .single-testimonials-card .testimonial-content::before {
-        left: 40px
-    }
-
-    .single-testimonials-card .clients-info {
-        padding-left: 100px
-    }
-
-    .single-testimonials-card .clients-info h3 {
-        font-size: 16px
-    }
-
-    .single-testimonials-card .clients-info .img {
-        left: 20px
-    }
-
-    .testimonials-area.bg::after {
-        display: none
-    }
-
-    .owl-thumbs {
-        text-align: left;
-        position: unset;
-        padding-bottom: 50px;
-        margin-top: 30px
-    }
-
-    .owl-thumbs button {
-        border: 2px solid transparent
-    }
-
-    .owl-thumbs button:hover,
-    .owl-thumbs button.active {
-        border: 2px solid #d00
-    }
-
-    .owl-thumbs .owl-thumb-item {
-        width: 50px;
-        height: 50px;
-        margin-right: 5px;
-        border-radius: 10px
-    }
-
-    .testimonials-item .testimonials-content {
-        margin-top: 30px
-    }
-
-    .testimonials-item .testimonials-content .quote {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .single-testimonial-item {
-        padding: 25px 25px 35px
-    }
-
-    .user-form {
-        padding: 20px
-    }
-
-    .user-form h2 {
-        font-size: 20px
     }
 
     .contact-title h2 {
@@ -508,186 +358,6 @@
     }
 
     .video-btn-content {
-        margin-bottom: 20px
-    }
-
-    .single-blog-card .blog-content {
-        padding: 20px
-    }
-
-    .single-blog-card .blog-content ul {
-        margin-bottom: 13px
-    }
-
-    .single-blog-card .blog-content span {
-        margin-bottom: 15px
-    }
-
-    .single-blog-card .blog-content h2 {
-        font-size: 18px;
-        margin-bottom: 20px;
-        line-height: 26px
-    }
-
-    .single-blog-card.style3 {
-        padding-bottom: 0
-    }
-
-    .single-blog-card.style3 .blog-content {
-        position: unset
-    }
-
-    .blog-details-content {
-        padding: 20px
-    }
-
-    .blog-details-content .top-content h2 {
-        font-size: 19px;
-        margin-bottom: 18px
-    }
-
-    .blog-details-content .quote {
-        padding: 20px
-    }
-
-    .blog-details-content .quote .icon {
-        left: 0;
-        right: 0;
-        opacity: .1
-    }
-
-    .single-footer-widget h3 {
-        font-size: 18px
-    }
-
-    .single-footer-widget.contact-info {
-        padding-right: 0
-    }
-
-    .single-footer-widget.quick-links {
-        padding-left: 0;
-        padding-right: 0
-    }
-
-    .single-footer-widget.quick-links ul li {
-        margin-bottom: 10px
-    }
-
-    .single-footer-widget.subscribe {
-        padding-left: 0
-    }
-
-    .single-footer-widget.subscribe span {
-        margin-bottom: 15px
-    }
-
-    .single-footer-widget.subscribe p {
-        margin-bottom: 20px
-    }
-
-    .single-footer-widget.contact-info ul li {
-        margin-bottom: 15px !important
-    }
-
-    .single-footer-widget.contact-info ul li:last-child {
-        margin-bottom: 25px !important
-    }
-
-    .single-footer-widget.contact-info .social-content ul li {
-        margin-bottom: 0 !important
-    }
-
-    .single-footer-widget.contact-info .social-content ul li:last-child {
-        margin-bottom: 0 !important
-    }
-
-    .footer-area .col-lg-4::before {
-        display: none
-    }
-
-    .privacy-content h2 {
-        font-size: 24px
-    }
-
-    .privacy-content h4 {
-        font-size: 18px;
-        margin-bottom: 12px
-    }
-
-    .privacy-content p {
-        margin-bottom: 20px
-    }
-
-    .condition-content h2 {
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .condition-content h4 {
-        font-size: 18px;
-        margin-bottom: 12px
-    }
-
-    .condition-content p {
-        margin-bottom: 20px
-    }
-
-    .coming-soon-counter {
-        margin-bottom: 10px;
-        padding-top: 60px;
-        padding-bottom: 30px;
-        border: 20px solid #fff
-    }
-
-    .coming-soon-counter .shape-3 {
-        display: none
-    }
-
-    .coming-soon-counter .list ul li {
-        font-size: 30px
-    }
-
-    .coming-soon-counter .list ul li::before {
-        display: none
-    }
-
-    .coming-soon-counter .list ul li::after {
-        display: none
-    }
-
-    .coming-soon-counter::before {
-        display: none
-    }
-
-    .coming-soon-area {
-        padding-top: 50px;
-        padding-bottom: 40px
-    }
-
-    .coming-soon-content {
-        padding-top: 30px
-    }
-
-    .coming-soon-content .top-content h1 {
-        font-size: 24px
-    }
-
-    .coming-soon-content .newsletter-form .form-control {
-        height: 52px
-    }
-
-    .coming-soon-content .newsletter-form .subscribe-btn {
-        position: unset;
-        margin-top: 25px
-    }
-
-    .error-area .top-content ul li {
-        font-size: 100px;
-        margin-right: 25px
-    }
-
-    .error-area h2 {
-        font-size: 20px;
         margin-bottom: 20px
     }
 }
@@ -769,10 +439,6 @@
     .default-btn i {
         right: 15px;
         top: 50%
-    }
-
-    .cursor-outer {
-        display: none
     }
 
     .mouseCursor {
@@ -922,30 +588,6 @@
         padding: 7px 13px
     }
 
-    .go-top {
-        width: 35px;
-        height: 45px;
-        line-height: 45px
-    }
-
-    .go-top i {
-        font-size: 20px
-    }
-
-
-    .cart-table {
-        padding: 20px 30px 30px
-    }
-
-    .cart-table tbody tr td {
-        padding: 10px 20px
-    }
-
-    .cart-table tbody tr td.image img {
-        height: 60px;
-        width: 60px
-    }
-
     .faq-content {
         margin-bottom: 30px
     }
@@ -958,15 +600,6 @@
     .faq-content p {
         margin-bottom: 25px
     }
-
-    .user-form {
-        padding: 25px
-    }
-
-    .user-form h2 {
-        font-size: 22px
-    }
-
 
     .single-testimonial-box {
         padding: 20px
@@ -981,72 +614,6 @@
         width: 50px;
         line-height: 50px;
         font-size: 24px
-    }
-
-    .single-testimonial-box .top-content ul li .number {
-        font-size: 50px;
-        line-height: 50px
-    }
-
-    .testimonials-ovely {
-        padding-left: 30px;
-        padding-right: 30px
-    }
-
-    .single-testimonials-card .testimonial-content {
-        padding: 25px;
-        margin-bottom: 55px
-    }
-
-    .single-testimonials-card .clients-info h3 {
-        font-size: 18px
-    }
-
-    .testimonials-area.bg::after {
-        display: none
-    }
-
-    .owl-thumbs {
-        text-align: left;
-        position: unset;
-        padding-bottom: 50px;
-        margin-top: 30px
-    }
-
-    .owl-thumbs button {
-        border: 2px solid transparent
-    }
-
-    .owl-thumbs button:hover,
-    .owl-thumbs button.active {
-        border: 2px solid #d00
-    }
-
-    .owl-thumbs .owl-thumb-item {
-        width: 60px;
-        height: 60px;
-        margin-right: 10px;
-        border-radius: 10px
-    }
-
-    .testimonials-item .testimonials-content {
-        margin-top: 30px
-    }
-
-    .testimonials-item .testimonials-content p {
-        margin-bottom: 20px
-    }
-
-    .testimonials-item .testimonials-content .quote {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .single-testimonial-item {
-        padding: 25px 25px 35px
     }
 
     .faq-image {
@@ -1103,86 +670,6 @@
         margin-bottom: 20px
     }
 
-    .single-blog-card .blog-content {
-        padding: 20px
-    }
-
-    .single-blog-card .blog-content span {
-        margin-bottom: 15px
-    }
-
-    .single-blog-card .blog-content h2 {
-        font-size: 18px;
-        margin-bottom: 20px;
-        line-height: 26px
-    }
-
-    .single-blog-card.style3 {
-        padding-bottom: 0
-    }
-
-    .single-blog-card.style3 .blog-content {
-        position: unset
-    }
-
-    .blog-details-content {
-        padding: 20px
-    }
-
-    .blog-details-content .top-content h2 {
-        font-size: 22px;
-        margin-bottom: 18px
-    }
-
-    .single-footer-widget h3 {
-        font-size: 18px
-    }
-
-    .single-footer-widget.contact-info {
-        padding-right: 0
-    }
-
-    .single-footer-widget.quick-links {
-        padding-left: 0;
-        padding-right: 0
-    }
-
-    .single-footer-widget.quick-links ul li {
-        margin-bottom: 10px
-    }
-
-    .single-footer-widget.subscribe {
-        padding-left: 0
-    }
-
-    .single-footer-widget.subscribe span {
-        margin-bottom: 15px
-    }
-
-    .single-footer-widget.subscribe p {
-        margin-bottom: 20px
-    }
-
-    .single-footer-widget.contact-info ul li {
-        margin-bottom: 15px !important
-    }
-
-    .single-footer-widget.contact-info ul li:last-child {
-        margin-bottom: 25px !important
-    }
-
-    .single-footer-widget.contact-info .social-content ul li {
-        margin-bottom: 0 !important
-    }
-
-    .single-footer-widget.contact-info .social-content ul li:last-child {
-        margin-bottom: 0 !important
-    }
-
-    .footer-area .col-lg-4::before {
-        display: none
-    }
-
     .single-gallery-card .gallery-content {
         padding: 15px
     }
@@ -1193,91 +680,6 @@
 
     .single-gallery-card .gallery-content .content h3 {
         font-size: 16px
-    }
-
-    .privacy-content h2 {
-        font-size: 24px
-    }
-
-    .privacy-content h4 {
-        font-size: 20px;
-        margin-bottom: 15px
-    }
-
-    .privacy-content p {
-        margin-bottom: 20px
-    }
-
-    .condition-content h2 {
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .condition-content h4 {
-        font-size: 20px;
-        margin-bottom: 15px
-    }
-
-    .condition-content p {
-        margin-bottom: 20px
-    }
-
-    .coming-soon-counter {
-        margin-bottom: 10px;
-        padding-top: 60px;
-        padding-bottom: 30px
-    }
-
-    .coming-soon-counter .shape-3 {
-        display: none
-    }
-
-    .coming-soon-counter .list ul li {
-        font-size: 30px
-    }
-
-    .coming-soon-counter .list ul li::before {
-        top: 25px
-    }
-
-    .coming-soon-counter .list ul li::after {
-        top: 38px
-    }
-
-    .coming-soon-counter::before {
-        display: none
-    }
-
-    .coming-soon-area {
-        padding-top: 50px;
-        padding-bottom: 40px
-    }
-
-    .coming-soon-content {
-        padding-top: 30px
-    }
-
-    .coming-soon-content .top-content h1 {
-        font-size: 24px
-    }
-
-    .coming-soon-content .newsletter-form .form-control {
-        height: 52px
-    }
-
-    .coming-soon-content .newsletter-form .subscribe-btn {
-        position: unset;
-        margin-top: 25px
-    }
-
-    .error-area .top-content ul li {
-        font-size: 100px;
-        margin-right: 25px
-    }
-
-    .error-area h2 {
-        font-size: 20px;
-        margin-bottom: 20px
     }
 }
 
@@ -1474,16 +876,6 @@
         padding: 9px 15px
     }
 
-    .go-top {
-        width: 35px;
-        height: 45px;
-        line-height: 45px
-    }
-
-    .go-top i {
-        font-size: 20px
-    }
-
     .video-content .video-title h2 {
         font-size: 32px;
         margin-bottom: 18px
@@ -1509,185 +901,6 @@
         line-height: 50px
     }
 
-    .testimonials-ovely {
-        padding-left: 30px;
-        padding-right: 30px
-    }
-
-    .single-testimonials-card .testimonial-content {
-        padding: 25px;
-        margin-bottom: 40px
-    }
-
-    .single-testimonials-card .testimonial-content::before {
-        left: 40px
-    }
-
-    .single-testimonials-card .clients-info {
-        padding-left: 100px
-    }
-
-    .single-testimonials-card .clients-info h3 {
-        font-size: 16px
-    }
-
-    .single-testimonials-card .clients-info .img {
-        left: 20px
-    }
-
-    .owl-thumbs {
-        bottom: 10px;
-        left: 43%
-    }
-
-    .owl-thumbs .owl-thumb-item {
-        width: 70px;
-        height: 70px;
-        margin-right: 12px
-    }
-
-    .testimonials-area.bg::after {
-        height: 110px
-    }
-
-    .testimonials-item .testimonials-content {
-        margin-top: 20px
-    }
-
-    .testimonials-item .testimonials-content .quote {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .testimonials-item .testimonials-content p {
-        margin-bottom: 20px
-    }
-
-    .single-testimonial-item {
-        padding: 25px 25px 35px
-    }
-
-    .single-blog-card .blog-content {
-        padding: 20px
-    }
-
-    .single-blog-card .blog-content span {
-        margin-bottom: 10px
-    }
-
-    .single-blog-card .blog-content h2 {
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 20px
-    }
-
-    .single-blog-card.style3 {
-        padding-bottom: 0
-    }
-
-    .single-blog-card.style3 .blog-content {
-        position: unset
-    }
-
-    .blog-details-content {
-        padding: 20px
-    }
-
-    .blog-details-content .top-content h2 {
-        font-size: 24px;
-        margin-bottom: 18px
-    }
-
-    .single-footer-widget h3 {
-        font-size: 20px;
-        margin-bottom: 30px
-    }
-
-    .single-footer-widget.subscribe span {
-        margin-bottom: 15px
-    }
-
-    .single-footer-widget.subscribe p {
-        margin-bottom: 20px
-    }
-
-    .privacy-content h2 {
-        font-size: 26px
-    }
-
-    .privacy-content h4 {
-        font-size: 22px;
-        margin-bottom: 15px
-    }
-
-    .privacy-content p {
-        margin-bottom: 20px
-    }
-
-    .condition-content h2 {
-        font-size: 26px;
-        margin-bottom: 20px
-    }
-
-    .condition-content h4 {
-        font-size: 22px;
-        margin-bottom: 15px
-    }
-
-    .condition-content p {
-        margin-bottom: 20px
-    }
-
-    .coming-soon-counter {
-        margin-bottom: 10px;
-        padding-top: 60px;
-        padding-bottom: 30px
-    }
-
-    .coming-soon-counter .shape-3 {
-        display: none
-    }
-
-    .coming-soon-counter .list ul li {
-        font-size: 40px
-    }
-
-    .coming-soon-counter .list ul li::before {
-        top: 35px
-    }
-
-    .coming-soon-counter .list ul li::after {
-        top: 48px
-    }
-
-    .coming-soon-counter::before {
-        display: none
-    }
-
-    .coming-soon-area {
-        padding-top: 50px;
-        padding-bottom: 40px
-    }
-
-    .coming-soon-content {
-        padding-top: 30px
-    }
-
-    .coming-soon-content .top-content h1 {
-        font-size: 24px
-    }
-
-    .coming-soon-content .newsletter-form .form-control {
-        height: 54px
-    }
-
-    .coming-soon-content .newsletter-form .subscribe-btn {
-        position: unset;
-        margin-top: 25px
-    }
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
@@ -1745,81 +958,4 @@
         margin-bottom: 20px
     }
 
-    .testimonials-ovely {
-        padding-left: 30px;
-        padding-right: 30px
-    }
-
-    .single-testimonials-card .testimonial-content {
-        padding: 25px;
-        margin-bottom: 40px
-    }
-
-    .single-testimonials-card .testimonial-content::before {
-        left: 40px
-    }
-
-    .single-testimonials-card .clients-info {
-        padding-left: 100px
-    }
-
-    .single-testimonials-card .clients-info h3 {
-        font-size: 16px
-    }
-
-    .single-testimonials-card .clients-info .img {
-        left: 20px
-    }
-
-    .owl-thumbs {
-        bottom: 40px;
-        left: 43%
-    }
-
-    .owl-thumbs .owl-thumb-item {
-        width: 80px;
-        height: 80px;
-        margin-right: 12px
-    }
-
-    .testimonials-area.bg::after {
-        height: 160px
-    }
-
-    .testimonials-item .testimonials-content {
-        margin-top: 20px
-    }
-
-    .testimonials-item .testimonials-content .quote {
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .testimonials-item .testimonials-content p {
-        margin-bottom: 20px
-    }
-
-    .single-blog-card .blog-content {
-        padding: 25px
-    }
-
-    .single-blog-card .blog-content span {
-        margin-bottom: 12px
-    }
-
-    .single-blog-card .blog-content h2 {
-        margin-bottom: 22px
-    }
-
-    .single-footer-widget h3 {
-        font-size: 20px;
-        margin-bottom: 32px
-    }
-
-    .single-footer-widget.contact-info ul li {
-        margin-bottom: 18px
-    }
 }

@@ -3084,9 +3084,109 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 
 /*----------------------------------------*/
-/*  09. Product CSS
+/*  09. Testimonial CSS
 /*----------------------------------------*/
 
+
+.single-testimonial-box {
+  padding: 35px;
+  border: 1px dashed rgba(221, 0, 0, .15);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  transition: all ease .5s
+}
+
+.single-testimonial-box .top-content {
+  margin-bottom: 25px
+}
+
+.single-testimonial-box .top-content ul {
+  padding-left: 0;
+  margin-bottom: 0
+}
+
+.single-testimonial-box .top-content ul li {
+  list-style-type: none
+}
+
+.single-testimonial-box .top-content ul li .quote {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  font-size: 30px;
+  text-align: center;
+  color: #d00;
+  background-color: #f0f0f0;
+  border-radius: 100%;
+  transition: all ease .5s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1
+}
+
+.single-testimonial-box .top-content ul li .quote::before {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 100%;
+  background-color: #d00;
+  border-radius: 100%;
+  bottom: 0;
+  right: 0;
+  transition: all ease .5s;
+  z-index: -1
+}
+
+.single-testimonial-box .top-content ul li .number {
+  font-size: 70px;
+  color: #f0f0f0;
+  font-weight: 500;
+  line-height: 60px
+}
+
+.single-testimonial-box .top-content p {
+  margin-bottom: 30px
+}
+
+.single-testimonial-box .clients-info h3 {
+  font-size: 18px;
+  margin-bottom: 7px;
+  font-weight: 600
+}
+
+.single-testimonial-box::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 40px;
+  background-color: #d00;
+  border-radius: 100% 0 10px 0;
+  bottom: 0;
+  right: 0;
+  transition: all ease .5s
+}
+
+.single-testimonial-box:hover {
+  border-color: transparent;
+  box-shadow: 0 6px 30px 5px rgba(33, 34, 38, .05);
+  transform: translateY(-10px)
+}
+
+.single-testimonial-box:hover::before {
+  height: 50px
+}
+
+.single-testimonial-box:hover .top-content ul li .quote {
+  color: #fff
+}
+
+.single-testimonial-box:hover .top-content ul li .quote::before {
+  height: 100%
+}
+
+
+/* Testimonialend */
 
 /*----------------------------------------*/
 /*  10. Blog CSS
@@ -3537,7 +3637,221 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 /*  12. Contact CSS
 /*----------------------------------------*/
 
+.single-contact-item {
+  padding-left: 95px;
+  position: relative;
+  margin-bottom: 40px
+}
 
+.single-contact-item .icon {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  color: #d00;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: all ease .5s;
+  overflow: hidden
+}
+
+.single-contact-item .icon::before {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background-color: #d00;
+  z-index: -1;
+  transition: all ease .5s
+}
+
+.single-contact-item a {
+  display: block;
+  color: #ffffff;
+  transition: all ease .5s;
+  margin-bottom: 4px
+}
+
+.single-contact-item a:hover {
+  color: #d00
+}
+
+.single-contact-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500
+}
+
+.single-contact-item.style2 span {
+  padding-right: 25px;
+  display: block
+}
+
+.single-contact-item:hover .icon {
+  color: #fff
+}
+
+.single-contact-item:hover .icon::before {
+  height: 100%
+}
+
+.contact-title {
+  margin-bottom: 30px
+}
+
+.contact-title span {
+  color: #d00;
+  display: inline-block;
+  margin-bottom: 8px
+}
+
+.contact-title h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: 700
+}
+
+.contact-title h2 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #d00;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px
+}
+
+.follow-content {
+  padding-top: 30px;
+  border-top: 1px solid #f0f0f0;
+  margin-bottom: 30px
+}
+
+.follow-content .social-content ul {
+  padding-left: 0;
+  margin-bottom: 0
+}
+
+.follow-content .social-content ul li {
+  display: inline-block;
+  margin-right: 10px
+}
+
+.follow-content .social-content ul li:last-child {
+  margin-right: 0
+}
+
+.follow-content .social-content ul li span {
+  color: #212226;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  top: -11px
+}
+
+.follow-content .social-content ul li a {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #666;
+  border-radius: 100%;
+  position: relative;
+  z-index: 1;
+  transition: all ease .5s;
+  overflow: hidden
+}
+
+.follow-content .social-content ul li a::before {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #d00;
+  border-radius: 100%;
+  z-index: -1;
+  transition: all ease .5s
+}
+
+.follow-content .social-content ul li a:hover {
+  color: #fff
+}
+
+.follow-content .social-content ul li a:hover::before {
+  height: 100%
+}
+
+.contact-form {
+  padding: 30px;
+  box-shadow: 0 6px 30px 5px rgba(33, 34, 38, .05);
+  border-radius: 10px;
+  margin-bottom: 30px
+}
+
+.contact-form .form-group {
+  margin-bottom: 25px
+}
+
+.contact-form .form-group .form-control {
+  border-radius: 30px
+}
+
+.contact-form .form-group textarea {
+  border-radius: 10px !important
+}
+
+.contact-form .form-group .form-check a {
+  color: #d00
+}
+
+.contact-form .form-group .form-check .form-check-input {
+  box-shadow: unset;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px;
+  height: 17px;
+  width: 17px;
+  background-image: unset !important;
+  transition: all ease .5s;
+  position: relative;
+  top: -1px
+}
+
+.contact-form .form-group .form-check .form-check-input:checked {
+  background-color: #d00;
+  border-color: #dcdcdc
+}
+
+.contact-form .text-danger {
+  padding-top: 15px;
+  color: #d00;
+  font-size: 18px
+}
+
+.contact-form .list-unstyled {
+  padding-top: 7px;
+  color: #d00
+}
+
+.map-area iframe {
+  height: 550px;
+  width: 100%;
+  margin-bottom: -10px
+}
 
 .form-control {
   height: 50px;

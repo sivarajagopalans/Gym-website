@@ -139,63 +139,6 @@
         width: 35px
     }
 
-    .single-services-box .services-content {
-        padding: 25px
-    }
-
-    .single-services-box .services-content h3 {
-        margin-bottom: 18px;
-        font-size: 18px
-    }
-
-    .single-services-box .services-content p {
-        margin-bottom: 25px
-    }
-
-    .services-area.service-bg {
-        padding-bottom: 20px;
-        margin-bottom: 30px
-    }
-
-    .services-area.service-bg::after {
-        display: none
-    }
-
-    .services-details .services-details-top-content {
-        margin-bottom: 25px
-    }
-
-    .services-details .services-details-top-content h2 {
-        font-size: 24px;
-        margin-bottom: 20px
-    }
-
-    .services-details .boxing-content h3 {
-        font-size: 18px
-    }
-
-    .services-details .boxer-content h3 {
-        font-size: 18px;
-        margin-bottom: 18px
-    }
-
-    .faq-content {
-        margin-bottom: 30px
-    }
-
-    .faq-content .faq-title h2 {
-        font-size: 22px;
-        margin-bottom: 18px
-    }
-
-    .faq-content p {
-        margin-bottom: 25px
-    }
-
-    .faq-accordion.pl-15 {
-        padding-left: 12px
-    }
-
     .faq-accordion .accordion .accordion-title {
         padding: 15px;
         padding-right: 40px
@@ -503,19 +446,6 @@
         width: 35px
     }
 
-    .single-services-box .services-content {
-        padding: 25px
-    }
-
-    .services-area.service-bg {
-        padding-bottom: 20px;
-        margin-bottom: 30px
-    }
-
-    .services-area.service-bg::after {
-        display: none
-    }
-
     .training-details-content .details-top-content h2 {
         font-size: 26px;
         margin-bottom: 18px
@@ -731,19 +661,6 @@
         margin-bottom: 20px
     }
 
-    .single-services-box .services-content {
-        padding: 20px
-    }
-
-    .single-services-box .services-content h3 {
-        margin-bottom: 15px;
-        font-size: 17px
-    }
-
-    .single-services-box .services-content p {
-        margin-bottom: 22px
-    }
-
     .faq-content .faq-title h2 {
         font-size: 30px;
         margin-bottom: 18px
@@ -924,18 +841,6 @@
 
     .default-btn i {
         right: 25px
-    }
-
-    .single-services-box .services-content {
-        padding: 20px
-    }
-
-    .single-services-box .services-content h3 {
-        margin-bottom: 15px
-    }
-
-    .single-services-box .services-content p {
-        margin-bottom: 20px
     }
 
     .faq-image {

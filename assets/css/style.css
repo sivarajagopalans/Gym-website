@@ -861,9 +861,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   color: #ea1b29;
 }
 
-
-
-
 .topcontact-btn {
   margin-left: 10px;
 }
@@ -919,6 +916,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   position: relative;
   padding: 45px;
   background: #152136;
+  height: 100%;
 }
 
 @media (max-width: 575px) {

@@ -66,11 +66,6 @@
         top: 50%
     }
 
-
-    .mouseCursor {
-        display: none
-    }
-
     .section-title {
         margin: auto auto 35px
     }
@@ -82,23 +77,6 @@
     .section-title h2 {
         font-size: 22px;
         margin-bottom: 15px
-    }
-
-
-
-    .page-banner-content {
-        padding-top: 50px;
-        padding-bottom: 30px;
-        text-align: center
-    }
-
-    .page-banner-content h1 {
-        font-size: 30px;
-        margin-bottom: 15px
-    }
-
-    .page-banner-image {
-        text-align: center
     }
 
     .single-services-card {
@@ -137,113 +115,6 @@
 
     .single-services-card:hover::before {
         width: 35px
-    }
-
-    .faq-accordion .accordion .accordion-title {
-        padding: 15px;
-        padding-right: 40px
-    }
-
-    .faq-accordion .accordion .accordion-title i {
-        right: 15px;
-        font-size: 15px
-    }
-
-    .faq-accordion .accordion .accordion-content {
-        padding: 15px
-    }
-
-    .faq-image {
-        margin-bottom: 30px
-    }
-
-    .faq-accordion-content {
-        background-color: #fff;
-        position: relative;
-        margin-left: 0;
-        padding: 0;
-        border-radius: 10px
-    }
-
-    .training-details-content .details-top-content h2 {
-        font-size: 21px;
-        margin-bottom: 18px
-    }
-
-    .training-details-content .details-top-content p {
-        margin-bottom: 18px
-    }
-
-    .training-details-content .location {
-        margin-bottom: 25px
-    }
-
-    .training-details-content .location h3 {
-        font-size: 18px
-    }
-
-    .training-details-content .location iframe {
-        height: 350px
-    }
-
-    .training-details-content .description h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose p {
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information {
-        padding: 20px
-    }
-
-    .training-details-sidebar .training-information h3 {
-        font-size: 18px;
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information p {
-        margin-bottom: 20px
-    }
-
-    .training-details-sidebar .training-information ul li {
-        margin-bottom: 15px
-    }
-
-    .training-details-sidebar .training-information ul li h4 {
-        margin-bottom: 8px
-    }
-
-    .single-sidebar-widget {
-        padding: 20px
-    }
-
-    .single-sidebar-widget h3 {
-        font-size: 18px
-    }
-
-    .single-sidebar-widget.search-bar .form-group .default-btn {
-        padding: 7px 13px
-    }
-
-
-    .single-gallery-card .gallery-content {
-        padding: 20px
-    }
-
-    .single-gallery-card .gallery-content .content {
-        padding-left: 10px
-    }
-
-    .single-gallery-card .gallery-content .content h3 {
-        font-size: 18px
     }
 
     .single-testimonial-box {
@@ -294,10 +165,6 @@
 
     .video-content .video-title h2 {
         font-size: 22px
-    }
-
-    .intro-video-content .section-title {
-        margin-bottom: 30px
     }
 
     .video-btn-content {
@@ -384,10 +251,6 @@
         top: 50%
     }
 
-    .mouseCursor {
-        display: none
-    }
-
     .section-title {
         margin: auto auto 35px
     }
@@ -397,13 +260,6 @@
     }
 
     .section-title h2 {
-        font-size: 36px;
-        margin-bottom: 15px
-    }
-
-
-
-    .page-banner-content h1 {
         font-size: 36px;
         margin-bottom: 15px
     }
@@ -446,91 +302,6 @@
         width: 35px
     }
 
-    .training-details-content .details-top-content h2 {
-        font-size: 26px;
-        margin-bottom: 18px
-    }
-
-    .training-details-content .details-top-content p {
-        margin-bottom: 18px
-    }
-
-    .training-details-content .location {
-        margin-bottom: 25px
-    }
-
-    .training-details-content .location h3 {
-        font-size: 18px
-    }
-
-    .training-details-content .location iframe {
-        height: 350px
-    }
-
-    .training-details-content .description h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose p {
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information {
-        padding: 20px
-    }
-
-    .training-details-sidebar .training-information h3 {
-        font-size: 18px;
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information p {
-        margin-bottom: 20px
-    }
-
-    .training-details-sidebar .training-information ul li {
-        margin-bottom: 15px
-    }
-
-    .training-details-sidebar .training-information ul li h4 {
-        margin-bottom: 8px
-    }
-
-    .training-details-top-image .top-img {
-        margin-bottom: 25px
-    }
-
-    .single-sidebar-widget {
-        padding: 20px
-    }
-
-    .single-sidebar-widget h3 {
-        font-size: 18px
-    }
-
-    .single-sidebar-widget.search-bar .form-group .default-btn {
-        padding: 7px 13px
-    }
-
-    .faq-content {
-        margin-bottom: 30px
-    }
-
-    .faq-content .faq-title h2 {
-        font-size: 36px;
-        margin-bottom: 18px
-    }
-
-    .faq-content p {
-        margin-bottom: 25px
-    }
-
     .single-testimonial-box {
         padding: 20px
     }
@@ -544,22 +315,6 @@
         width: 50px;
         line-height: 50px;
         font-size: 24px
-    }
-
-    .faq-image {
-        margin-bottom: 30px
-    }
-
-    .faq-accordion.pl-15 {
-        padding-left: 12px
-    }
-
-    .faq-accordion-content {
-        background-color: #fff;
-        position: relative;
-        margin-left: 0;
-        padding: 0;
-        border-radius: 10px
     }
 
     .contact-title h2 {
@@ -592,24 +347,8 @@
         font-size: 40px
     }
 
-    .intro-video-content .section-title {
-        margin-bottom: 30px
-    }
-
     .video-btn-content {
         margin-bottom: 20px
-    }
-
-    .single-gallery-card .gallery-content {
-        padding: 15px
-    }
-
-    .single-gallery-card .gallery-content .content {
-        padding-left: 10px
-    }
-
-    .single-gallery-card .gallery-content .content h3 {
-        font-size: 16px
     }
 }
 
@@ -661,39 +400,6 @@
         margin-bottom: 20px
     }
 
-    .faq-content .faq-title h2 {
-        font-size: 30px;
-        margin-bottom: 18px
-    }
-
-    .faq-image {
-        margin-bottom: 30px
-    }
-
-    .faq-accordion-content {
-        background-color: #fff;
-        position: relative;
-        margin-left: 0;
-        padding: 0;
-        border-radius: 10px
-    }
-  
-    .single-gallery-card .gallery-content {
-        padding: 20px
-    }
-
-    .single-gallery-card .gallery-content .content {
-        padding-left: 10px
-    }
-
-    .single-gallery-card .gallery-content .content span {
-        margin-bottom: 8px
-    }
-
-    .single-gallery-card .gallery-content .content h3 {
-        font-size: 18px
-    }
-
     .contact-title h2 {
         font-size: 30px;
         margin-bottom: 18px
@@ -719,78 +425,6 @@
 
     .map-area iframe {
         height: 400px
-    }
-
-    .training-details-content .details-top-content h2 {
-        font-size: 26px;
-        margin-bottom: 18px
-    }
-
-    .training-details-content .details-top-content p {
-        margin-bottom: 18px
-    }
-
-    .training-details-content .location {
-        margin-bottom: 25px
-    }
-
-    .training-details-content .location h3 {
-        font-size: 18px
-    }
-
-    .training-details-content .location iframe {
-        height: 350px
-    }
-
-    .training-details-content .description h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose h3 {
-        font-size: 18px;
-        margin-bottom: 15px
-    }
-
-    .training-details-content .training-purpose p {
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information {
-        padding: 20px
-    }
-
-    .training-details-sidebar .training-information h3 {
-        font-size: 18px;
-        margin-bottom: 18px
-    }
-
-    .training-details-sidebar .training-information p {
-        margin-bottom: 20px
-    }
-
-    .training-details-sidebar .training-information ul li {
-        margin-bottom: 15px
-    }
-
-    .training-details-sidebar .training-information ul li h4 {
-        margin-bottom: 8px
-    }
-
-    .training-details-top-image .top-img {
-        margin-bottom: 25px
-    }
-
-    .single-sidebar-widget {
-        padding: 20px
-    }
-
-    .single-sidebar-widget h3 {
-        font-size: 18px
-    }
-
-    .single-sidebar-widget.search-bar .form-group .default-btn {
-        padding: 9px 15px
     }
 
     .video-content .video-title h2 {
@@ -841,18 +475,6 @@
 
     .default-btn i {
         right: 25px
-    }
-
-    .faq-image {
-        margin-bottom: 30px
-    }
-
-    .faq-accordion-content {
-        background-color: #fff;
-        position: relative;
-        margin-left: 0;
-        padding: 0;
-        border-radius: 10px
     }
 
     .single-testimonial-box {
